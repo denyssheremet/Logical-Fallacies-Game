@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="metaModelSentences.js"></script>
+    <script src="makeHTMLElements.js"></script>
+    <script src="makeClasses.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="levels">
+        <h5 id="title"></h5>
+        <button class="homebtn" onclick="goToHomepage()">Home</button>
+        <div id="dropdown" class="dropdown">
+            <div id="selectionDropdown" class="dropdown-content"> </div>
+        </div>
+
+        <div id="topDiv">
+        </div>
+
+        <div id="bottomDiv">
+        </div>
+    </div>
+    <div id="homepage">
+        <h2 id="big2">What Is This Game About?</h2>
+        <button class="bigbtn" onclick="window.location.href='introduction.html'">Tell Me!</button>
+        <h1 id="big">Intro</h1>
+        <button class="bigbtn" onclick="startIntroduction('Level 1')">Level 1</button>
+        <button class="bigbtn" onclick="startIntroduction('Level 2')">Level 2</button>
+        <button class="bigbtn" onclick="startIntroduction('Level 3')">Level 3</button>
+        <button class="bigbtn" onclick="startIntroduction('Level 4')">Level 4</button>
+        <h1 id="big">Quiz</h1>
+        <button class="bigbtn" onclick="startMultipleChoiceTrainer('Level 1')">Level 1</button>
+        <button class="bigbtn" onclick="startMultipleChoiceTrainer('Level 2')">Level 2</button>
+        <button class="bigbtn" onclick="startMultipleChoiceTrainer('Level 3')">Level 3</button>
+        <button class="bigbtn" onclick="startMultipleChoiceTrainer('Level 4')">Level 4</button>
+    </div>
+</body>
+
+</html>

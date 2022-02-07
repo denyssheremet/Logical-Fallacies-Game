@@ -1,0 +1,108 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: rgb(212, 185, 135);
+}
+
+#subCategory {
+    color: darkolivegreen;
+}
+
+#big {
+    color: darkorange;
+    margin-top: 5%;
+}
+#big2 {
+    color: darkorange;
+    margin-top: 5%;
+}
+
+#green {
+    color: rgb(207, 140, 14);
+}
+
+.bigbtn {
+    background-color: darkgreen;
+    color: gold;
+    padding: 10px;
+    font-size: 16px;
+    /* margin: 3px; */
+    cursor: pointer;
+}
+  
+.bigbtn:hover, .bigbtn:focus {
+    background-color: #2980B9;
+}
+
+.homebtn {
+    background-color: darkgreen;
+    color: grey;
+    padding: 10px;
+    font-size: 16px;
+    margin: 3   px;
+    cursor: pointer;
+}
+  
+.homebtn:hover, .homebtn:focus {
+    background-color: #2980B9;
+}
+
+.answerButton {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width: 150px;
+} 
+
+.nextslidebutton {
+    margin-top: 5%;
+    margin-left: 44%;
+}
+
+#topDiv {
+    text-align: center;
+    display: block;
+}
+
+#bottomDiv {
+    text-align: center;
+    display: block;
+}
+
+#infoDiv {
+    /* text-align: center; */
+    display: block;
+    color: white;
+}
+
+#whiteP {
+    color: white;
+    width: 50%;
+    /* text-align: center; */
+}
+
+#homepage {
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+
+.Level {
+    display: flex;
+    margin-left: 32%;
+}
+
+#title {
+    color:rgb(224, 174, 80)
+}
+
+#sentence {
+    margin: 50px;
+    margin-top: 100px;
+    color: rgb(207, 174, 112);
+}
